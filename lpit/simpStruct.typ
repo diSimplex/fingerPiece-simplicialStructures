@@ -1,22 +1,30 @@
-//% !TEX root = simpStruc.tex
-//% !LPiL preamble = ./ssPreamble.tex
-//% !LPiL postamble = ./ssPostamble.tex
-//% !LPiL collection = fingerPieces
+
+///////////////////////////////////////////////
+// Imports
+
+#import "@local/lpit-publisher-papers:0.2.0" : *
+
+///////////////////////////////////////////////
+// Front matter
+
+#setupDoc(yaml("lpit.yaml"))
 
 //\lpilTitle{fp-simpStruc}[
 //  Finger Pieces : Simplicial Structures
 //]{
-  Finger Pieces : Simplicial Structures
+//  Finger Pieces : Simplicial Structures
 //}
 //\author{Stephen Gaito}
 
 //\maketitle
 
-//\begin{abstract}
+#abstract([
   In this finger piece, we explore the Simplicial Structures used by the
   diSimplex projects.
-//\end{abstract}
+])
 
+///////////////////////////////////////////////
+// Body
 
 = Introduction
 
@@ -46,4 +54,7 @@ fairly standard "presheaf" approach to defining Simplicial Structures.
 
 We begin by looking at the category of order preserving maps between the natural
 numbers.
+
+/////////////////////////////////////////////////////////////////
+// End matter
 

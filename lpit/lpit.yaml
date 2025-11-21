@@ -1,0 +1,25 @@
+# This is the LPiT definition YAML file for the <<>> document
+
+doc:
+  id: fp-simpStruc
+  name: simpStruct
+  type: paper
+
+title:
+  short: "Finger Pieces : Simplicial Structures"
+  long: "Finger Pieces : Simplicial Structures"
+
+authors:
+  - given: Stephen
+    family: Gaito
+    order: givenFamily
+    email: stephen@perceptisys.co.uk
+
+#packages:
+#  - location: <<>> # optional
+#    name: <<>
+#    version: <<>>
+
+abstract: |
+  In this finger piece, we explore the Simplicial Structures used by the
+  diSimplex projects.
