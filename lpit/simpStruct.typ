@@ -7,7 +7,7 @@
 ///////////////////////////////////////////////
 // Front matter
 
-#setupDoc(yaml("lpit.yaml"))
+#show: doc => setupDoc(yaml("lpit.yaml"), doc)
 
 //\lpilTitle{fp-simpStruc}[
 //  Finger Pieces : Simplicial Structures
